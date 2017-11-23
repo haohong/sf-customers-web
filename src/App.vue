@@ -10,13 +10,13 @@
       <v-toolbar-title :style="$vuetify.breakpoint.smAndUp ? 'width: 400px; min-width: 250px' : 'min-width: 72px'" class="ml-0 pl-3">
         <span class="hidden-xs-only">ServiceFusion Customers</span>
       </v-toolbar-title>
-      <v-text-field
+      <!-- <v-text-field
         light
         solo
         prepend-icon="search"
         placeholder="Search"
         style="max-width: 500px; min-width: 128px"
-      ></v-text-field>
+      ></v-text-field> -->
     </v-toolbar>
 
     <v-content>
